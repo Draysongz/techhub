@@ -282,7 +282,7 @@ function ProductDetails() {
             <p className="text-gray-300 text-lg">{product.description}</p>
 
             <div className="flex items-baseline space-x-3">
-              <span className="text-5xl font-bold text-white">${product.price}</span>
+              <span className="text-5xl font-bold text-white">£{product.price}</span>
               <span className="text-lg text-green-400">Free Shipping</span>
             </div>
 

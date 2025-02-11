@@ -69,7 +69,7 @@ function Cart() {
                   />
                   <div className="flex-1 text-center sm:text-left">
                     <h3 className="text-white font-semibold">{item.name}</h3>
-                    <p className="text-purple-400 font-bold">${item.price}</p>
+                    <p className="text-purple-400 font-bold">£{item.price}</p>
                   </div>
                   <div className="flex items-center space-x-2">
                     <button 
@@ -104,7 +104,7 @@ function Cart() {
               <div className="space-y-3">
                 <div className="flex justify-between text-gray-300">
                   <span>Subtotal</span>
-                  <span>${subtotal.toFixed(2)}</span>
+                  <span>£{subtotal.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between text-gray-300">
                   <span>Shipping</span>
@@ -112,12 +112,12 @@ function Cart() {
                 </div>
                 <div className="flex justify-between text-gray-300">
                   <span>Tax</span>
-                  <span>${tax.toFixed(2)}</span>
+                  <span>£{tax.toFixed(2)}</span>
                 </div>
                 <div className="border-t border-gray-700 pt-3">
                   <div className="flex justify-between text-white font-bold">
                     <span>Total</span>
-                    <span>${total.toFixed(2)}</span>
+                    <span>£{total.toFixed(2)}</span>
                   </div>
                 </div>
               </div>

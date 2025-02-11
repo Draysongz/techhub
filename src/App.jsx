@@ -212,7 +212,7 @@ function App() {
                   <button
                     key={index}
                     onClick={() => setCurrentSlide(index)}
-                    className={`w-3 h-3 rounded-full transition-all ${
+                    className={`w-3 h-3 rounded-full transition-all {
                       currentSlide === index 
                         ? 'bg-gradient-to-r from-purple-600 to-blue-600 w-8' 
                         : 'bg-gradient-to-r from-purple-600/20 to-blue-600/20'
@@ -273,7 +273,7 @@ function App() {
                           </div>
                           <h3 className="text-xl font-semibold text-white mb-2">{product.name}</h3>
                           <div className="flex justify-between items-center">
-                            <p className="text-2xl font-bold text-blue-400">${product.price}</p>
+                            <p className="text-2xl font-bold text-blue-400">£{product.price}</p>
                             <button className="bg-gradient-to-r from-purple-600/20 to-blue-600/20 text-purple-400 px-4 py-2 rounded-lg hover:from-purple-600 hover:to-blue-600 hover:text-white transition-all">
                               Add to Cart
                             </button>
