@@ -14,9 +14,9 @@ function ProductDetails() {
       reviews: 328,
       description: "Experience gaming like never before with our premium gaming headset. Features 7.1 surround sound, noise-canceling microphone, RGB lighting, and memory foam cushions for extended gaming sessions.",
       images: [
-        "https://images.pexels.com/photos/5499303/pexels-photo-5499303.jpeg",
-        "https://images.pexels.com/photos/3945663/pexels-photo-3945663.jpeg",
-        "https://images.pexels.com/photos/5499281/pexels-photo-5499281.jpeg",
+        "https://images.pexels.com/photos/1037999/pexels-photo-1037999.jpeg",
+        "https://images.pexels.com/photos/3394665/pexels-photo-3394665.jpeg",
+        "https://images.pexels.com/photos/3394669/pexels-photo-3394669.jpeg",
       ],
       specs: [
         { label: "Driver Size", value: "50mm" },
@@ -55,15 +55,182 @@ function ProductDetails() {
         "Gaming Mode"
       ]
     },
-    // Add more products as needed...
+    3: {
+      name: "Apple Watch Ultra",
+      price: 799.99,
+      rating: 4.9,
+      reviews: 275,
+      description: "The most rugged and capable Apple Watch ever. Featuring a robust titanium case, precision dual-frequency GPS, and up to 36 hours of battery life.",
+      images: [
+        "https://images.pexels.com/photos/393047/pexels-photo-393047.jpeg",
+        "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg",
+        "https://images.pexels.com/photos/9385954/pexels-photo-9385954.jpeg",
+      ],
+      specs: [
+        { label: "Display", value: "Always-On Retina" },
+        { label: "Case Material", value: "Titanium" },
+        { label: "Water Resistance", value: "100m" },
+        { label: "Battery Life", value: "36 hours" }
+      ],
+      features: [
+        "Precision GPS",
+        "Action Button",
+        "Emergency SOS",
+        "Health Sensors"
+      ]
+    },
+    4: {
+      name: "Samsung Odyssey G9",
+      price: 1499.99,
+      rating: 4.8,
+      reviews: 189,
+      description: "Immerse yourself in the game with this 49-inch curved gaming monitor. Features 240Hz refresh rate, 1ms response time, and QLED technology.",
+      images: [
+        "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg",
+        "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg",
+        "https://images.pexels.com/photos/6976094/pexels-photo-6976094.jpeg",
+      ],
+      specs: [
+        { label: "Screen Size", value: "49 inch" },
+        { label: "Refresh Rate", value: "240Hz" },
+        { label: "Response Time", value: "1ms" },
+        { label: "Resolution", value: "5120x1440" }
+      ],
+      features: [
+        "QLED Technology",
+        "G-Sync Compatible",
+        "HDR1000",
+        "1000R Curvature"
+      ]
+    },
+    5: {
+      name: "Razer Huntsman V2",
+      price: 199.99,
+      rating: 4.7,
+      reviews: 312,
+      description: "The fastest gaming keyboard ever. Features optical switches, 8000Hz polling rate, and PBT keycaps for the ultimate gaming performance.",
+      images: [
+        "https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg",
+        "https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg",
+        "https://images.pexels.com/photos/3829227/pexels-photo-3829227.jpeg",
+      ],
+      specs: [
+        { label: "Switch Type", value: "Optical" },
+        { label: "Polling Rate", value: "8000Hz" },
+        { label: "Keycaps", value: "PBT Double-shot" },
+        { label: "Lighting", value: "Per-key RGB" }
+      ],
+      features: [
+        "Optical Switches",
+        "8000Hz HyperPolling",
+        "PBT Keycaps",
+        "Multi-function Dial"
+      ]
+    },
+    6: {
+      name: "Amazon Echo Show 15",
+      price: 249.99,
+      rating: 4.6,
+      reviews: 234,
+      description: "Transform your home with this 15.6-inch smart display. Features Alexa integration, widget functionality, and a beautiful Full HD screen.",
+      images: [
+        "https://images.pexels.com/photos/4790255/pexels-photo-4790255.jpeg",
+        "https://images.pexels.com/photos/4790254/pexels-photo-4790254.jpeg",
+        "https://images.pexels.com/photos/4790253/pexels-photo-4790253.jpeg",
+      ],
+      specs: [
+        { label: "Screen Size", value: "15.6 inch" },
+        { label: "Resolution", value: "1920x1080" },
+        { label: "Camera", value: "5MP" },
+        { label: "Speakers", value: "Stereo" }
+      ],
+      features: [
+        "Visual ID",
+        "Widget Support",
+        "Photo Frame",
+        "Video Calling"
+      ]
+    },
+    7: {
+      name: "Logitech G Pro X",
+      price: 149.99,
+      rating: 4.8,
+      reviews: 423,
+      description: "Professional-grade gaming mouse with HERO 25K sensor and LIGHTSPEED wireless technology for unrivaled performance.",
+      images: [
+        "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg",
+        "https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg",
+        "https://images.pexels.com/photos/5082581/pexels-photo-5082581.jpeg",
+      ],
+      specs: [
+        { label: "Sensor", value: "HERO 25K" },
+        { label: "Battery Life", value: "70 hours" },
+        { label: "Weight", value: "80g" },
+        { label: "Buttons", value: "8 Programmable" }
+      ],
+      features: [
+        "LIGHTSPEED Wireless",
+        "HERO 25K Sensor",
+        "PowerPlay Compatible",
+        "Programmable Buttons"
+      ]
+    },
+    8: {
+      name: "Logitech Brio 4K",
+      price: 199.99,
+      rating: 4.7,
+      reviews: 289,
+      description: "Professional 4K webcam with HDR and Windows Hello support. Perfect for streaming, video conferencing, and content creation.",
+      images: [
+        "https://images.pexels.com/photos/3643925/pexels-photo-3643925.jpeg",
+        "https://images.pexels.com/photos/4006876/pexels-photo-4006876.jpeg",
+        "https://images.pexels.com/photos/4006877/pexels-photo-4006877.jpeg",
+      ],
+      specs: [
+        { label: "Resolution", value: "4K UHD" },
+        { label: "Frame Rate", value: "60fps" },
+        { label: "FOV", value: "90°" },
+        { label: "Focus", value: "Autofocus" }
+      ],
+      features: [
+        "4K HDR",
+        "Windows Hello",
+        "Background Replace",
+        "RightLight 3"
+      ]
+    },
+    9: {
+      name: "Philips Hue Play",
+      price: 179.99,
+      rating: 4.6,
+      reviews: 167,
+      description: "Create immersive lighting experiences with this smart LED light bar. Sync with music, movies, and games for the ultimate ambiance.",
+      images: [
+        "https://images.pexels.com/photos/2917442/pexels-photo-2917442.jpeg",
+        "https://images.pexels.com/photos/2917443/pexels-photo-2917443.jpeg",
+        "https://images.pexels.com/photos/2917444/pexels-photo-2917444.jpeg",
+      ],
+      specs: [
+        { label: "Lumens", value: "530" },
+        { label: "Colors", value: "16M" },
+        { label: "Power", value: "6.6W" },
+        { label: "Lifetime", value: "25,000 hours" }
+      ],
+      features: [
+        "Music Sync",
+        "Game Sync",
+        "Smart Control",
+        "Voice Compatible"
+      ]
+    }
   }
 
   const product = products[id] || products[1] // Default to first product if ID not found
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 pt-20">
-      <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Product Images */}
           <div className="space-y-4">
             <div className="aspect-w-1 aspect-h-1 rounded-2xl overflow-hidden bg-gray-800">
@@ -92,8 +259,8 @@ function ProductDetails() {
 
           {/* Product Info */}
           <div className="space-y-6">
-            <div>
-              <h1 className="text-4xl font-bold text-white mb-2">{product.name}</h1>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+              <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2 sm:mb-0">{product.name}</h1>
               <div className="flex items-center space-x-4">
                 <div className="flex items-center">
                   {[...Array(5)].map((_, i) => (

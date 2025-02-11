@@ -40,7 +40,7 @@ function Cart() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 pt-20">
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h1 className="text-3xl font-bold text-white mb-8">Shopping Cart</h1>
 
         {cartItems.length === 0 ? (
@@ -60,14 +60,14 @@ function Cart() {
               {cartItems.map((item) => (
                 <div 
                   key={item.id} 
-                  className="bg-gray-800/50 backdrop-blur-lg rounded-xl p-4 flex items-center space-x-4 hover:bg-gray-800/70 transition-all"
+                  className="bg-gray-800/50 backdrop-blur-lg rounded-xl p-4 flex flex-col sm:flex-row items-center gap-4"
                 >
                   <img
                     src={item.image}
                     alt={item.name}
                     className="w-24 h-24 object-cover rounded-lg"
                   />
-                  <div className="flex-1">
+                  <div className="flex-1 text-center sm:text-left">
                     <h3 className="text-white font-semibold">{item.name}</h3>
                     <p className="text-purple-400 font-bold">${item.price}</p>
                   </div>

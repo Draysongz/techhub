@@ -34,7 +34,7 @@ function App() {
       id: 1,
       name: "Pro Gaming Headset X1",
       price: "299",
-      image: "https://images.pexels.com/photos/5499303/pexels-photo-5499303.jpeg",
+      image: "https://images.pexels.com/photos/1037999/pexels-photo-1037999.jpeg",
       category: "Gaming",
       rating: 5,
       badge: "New",
@@ -228,7 +228,7 @@ function App() {
                 <h2 className="text-4xl font-bold text-center mb-16 text-white perspective-text">
                   Featured Products
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                   {featuredProducts.map((product) => (
                     <Link to={`/product/${product.id}`} key={product.id}>
                       <div 
